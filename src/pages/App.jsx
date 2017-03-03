@@ -6,9 +6,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello asdf</h1>
+        <h1>Hello App</h1>
         { this.props.children }
-        <Link to="help">help</Link>
+        <button class='btn'><Link to='help'>help</Link></button>
+        <button class='btn'><Link to='about'>about</Link></button>
       </div>
     );
   }

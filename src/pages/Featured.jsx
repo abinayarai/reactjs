@@ -5,7 +5,7 @@ class Featured extends React.Component {
 
   render() {
     return (
-       <h2>Hello asdf</h2>
+       <h2>Hello Featured</h2>
     );
   }
 }
