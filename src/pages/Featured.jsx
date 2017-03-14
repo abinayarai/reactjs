@@ -10,4 +10,5 @@ class Featured extends React.Component {
   }
 }
 
+
 export default Featured;
