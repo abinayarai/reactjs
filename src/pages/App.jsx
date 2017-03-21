@@ -6,10 +6,21 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello App</h1>
-        { this.props.children }
-        <button class='btn'><Link to='help'>help</Link></button>
-        <button class='btn'><Link to='about'>about</Link></button>
+        <div className="navbar navbar-default navbar-fixed-top">
+          <div className="container">
+            <div className="navbar-header">
+              <a href="../" className="navbar-brand">My App</a>
+            </div>
+            <ul className="nav navbar-nav navbar-right">
+              <li><Link to='help'>help</Link></li>
+              <li><Link to='about'>about</Link></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          { this.props.children }
+        </div>
+
       </div>
     );
   }
